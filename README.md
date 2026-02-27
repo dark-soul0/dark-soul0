@@ -5,7 +5,7 @@
 - 🌱 I’m currently learning 
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ... 
-- email- psycho01king@gmail.com
+- email- sonu.samrat7668@gmail.com
 - 
 
 <!---
