@@ -158,7 +158,7 @@ func main() {
             "GhostLine",
             "GoSpyder",
             "ReconForgeX",
-            "LEO Desktop Assistant",
+            "Diego Desktop Assistant",
             "Security Automation",
         },
     }
@@ -305,7 +305,7 @@ Vulnerability Scanning
 
 <td width="50%" valign="top">
 
-## 🧠 LEO Desktop Assistant
+## 🧠 Diego Desktop Assistant
 
 ### Local AI-Powered Desktop Agent
 
