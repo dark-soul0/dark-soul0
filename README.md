@@ -22,7 +22,7 @@
 
 <div align="center">
 
-```text
+```text id="c3r5fy"
 Sonu Kumar
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Backend Engineer | Security Developer | AI / Automation Builder
@@ -45,7 +45,7 @@ aka
 
 # 🧑‍💻 `whoami`
 
-```text
+```text id="w4h1ne"
 ┌──[sonu@github]─[~]
 └─$ whoami
 
@@ -60,15 +60,14 @@ Privacy-Focused Systems Builder
 
 I'm **Sonu Kumar**, also known online as **NASHEDIxCODER**.
 
-I build software at the intersection of **backend engineering, cybersecurity, networking, privacy, infrastructure, and AI automation**.
+I build software at the intersection of:
 
-I enjoy building real systems from the ground up — understanding how they work, how they fail, how they can be secured, and how they can be improved.
-
-```text
+```text id="5f7n46"
 Backend Engineering
         │
         ├── Go
         ├── Python
+        ├── Java
         ├── APIs
         ├── WebSockets
         └── Real-Time Systems
@@ -76,16 +75,17 @@ Backend Engineering
         ▼
 Security Engineering
         │
-        ├── Recon
-        ├── Web Security
-        ├── Fuzzing
-        ├── Security Automation
-        └── Vulnerability Research
+        ├── Reconnaissance
+        ├── Application Security
+        ├── WAF Fingerprinting
+        ├── Vulnerability Fuzzing
+        └── Security Automation
         │
         ▼
 AI & Automation
         │
         ├── Local LLMs
+        ├── Ollama
         ├── AI Agents
         ├── STT / TTS
         └── Desktop Automation
@@ -94,17 +94,20 @@ AI & Automation
 Infrastructure
         │
         ├── Linux
-        ├── Docker
         ├── AWS
+        ├── Docker
+        ├── Kubernetes
         ├── Nginx
         └── Networking
 ```
+
+I enjoy building real systems from the ground up — understanding how they work, how they fail, how they can be secured, and how they can be improved.
 
 ---
 
 # ⚡ Developer Profile
 
-```go
+```go id="5o5j9n"
 package main
 
 type Developer struct {
@@ -129,8 +132,8 @@ func main() {
             "Go",
             "Python",
             "Java",
-            "C++",
             "JavaScript",
+            "C++",
             "Bash",
             "SQL",
         },
@@ -138,7 +141,7 @@ func main() {
         Domains: []string{
             "Backend Engineering",
             "Cybersecurity",
-            "Web Security",
+            "Application Security",
             "Reconnaissance",
             "Networking",
             "Privacy Engineering",
@@ -158,7 +161,7 @@ func main() {
             "GhostLine",
             "GoSpyder",
             "ReconForgeX",
-            "Diego Desktop Assistant",
+            "Diego Desktop Agent",
             "Security Automation",
         },
     }
@@ -180,13 +183,13 @@ func main() {
 
 ### Privacy-First Communication Infrastructure
 
-**Live:** https://ghostline.sbs
+🌐 **Live:** https://ghostline.sbs
 
 Privacy-focused real-time communication platform built from scratch.
 
-**Stack**
+### Stack
 
-```text
+```text id="g6c9me"
 Go
 PostgreSQL
 WebSockets
@@ -200,7 +203,7 @@ coturn
 TLS / SSL
 ```
 
-**Features**
+### Features
 
 * 🔐 End-to-End Encryption
 * ⚡ Real-Time Messaging
@@ -224,33 +227,35 @@ TLS / SSL
 
 ### Security & Reconnaissance Framework
 
-**Repository:** https://github.com/NASHEDIxCODER/gospyder
+🔗 **Repository:** https://github.com/NASHEDIxCODER/gospyder
 
-High-performance security scanner written in **Go**.
+High-performance reconnaissance and security framework written in **Go**.
 
-**Capabilities**
+### Capabilities
 
-```text
+```text id="p7x7vx"
 Target Normalization
 Port Scanning
 Live Host Detection
 HTTP Analysis
-WAF Detection
+WAF Fingerprinting
 Technology Detection
 Directory Fuzzing
+JavaScript Intelligence
 Recon Automation
 ```
 
-**Engineering**
+### Engineering
 
 * ⚡ Goroutine-based concurrency
-* 🔄 HTTP connection pooling
+* 🔄 Concurrent scanning
 * 🧩 Modular architecture
 * 🎯 Target normalization
 * 🌐 HTTP engine
 * 🛡️ WAF detection
 * 🔎 Recon modules
-* 📂 Directory fuzzing
+* 📂 Directory enumeration
+* 🧠 JavaScript analysis
 
 </td>
 
@@ -264,13 +269,13 @@ Recon Automation
 
 ### Automated Reconnaissance Framework
 
-**Repository:** https://github.com/NASHEDIxCODER/recon
+🔗 **Repository:** https://github.com/NASHEDIxCODER/recon
 
-Python-based reconnaissance automation framework designed to orchestrate multiple security tools.
+Async Python reconnaissance framework designed to orchestrate security workflows.
 
-**Stack**
+### Stack
 
-```text
+```text id="uo3yio"
 Python
 AsyncIO
 Subfinder
@@ -281,14 +286,16 @@ Nuclei
 MassDNS
 ```
 
-**Workflow**
+### Architecture
 
-```text
+```text id="ek0o9t"
 Target
+  ↓
+Asset Discovery
   ↓
 Subdomain Enumeration
   ↓
-DNS Resolution
+DNS Intelligence
   ↓
 Live Host Detection
   ↓
@@ -298,43 +305,72 @@ Port Scanning
   ↓
 Technology Detection
   ↓
-Vulnerability Scanning
+Security Analysis
+  ↓
+Automated Reporting
 ```
+
+### Engineering
+
+* ⚡ Async execution
+* 🧵 Configurable worker pools
+* 🧩 DAG-based scheduling
+* 🔄 Pipeline orchestration
+* 📊 Risk analysis
+* 📄 Automated reporting
+* 🧪 CI-ready tooling
 
 </td>
 
 <td width="50%" valign="top">
 
-## 🧠 Diego Desktop Assistant
+## 🦁 Diego
 
-### Local AI-Powered Desktop Agent
+### Local-First Desktop AI Agent
 
-AI-powered desktop assistant combining voice interaction, local AI and system automation.
+🔗 **Repository:** https://github.com/NASHEDIxCODER/Diego_desktop_agent
 
-**Stack**
+A local-first, voice-first desktop AI agent for Linux.
 
-```text
-Python
-Local LLMs
+Diego is designed to run primarily on the user's own machine, using local models and local processing instead of requiring mandatory cloud AI APIs.
+
+### Stack
+
+```text id="qzppq0"
+Python 3.11
+Linux / Arch
 Ollama
-Speech-to-Text
-Text-to-Speech
-Desktop Automation
-Command Processing
-Agent Architecture
+Local LLMs
+Whisper / faster-whisper
+openWakeWord
+Kokoro
+Piper
+pyttsx3
+PySide6
+DuckDB
+Playwright
+Chrome DevTools Protocol
+OCR
 ```
 
-**Capabilities**
+### Capabilities
 
-* 🎙️ Voice commands
-* 🧠 Local AI processing
-* 🔊 Speech responses
-* 🖥️ Desktop control
-* ⚙️ Task automation
-* 🤖 AI-assisted workflows
-* 🗣️ STT / TTS pipeline
-* 🧩 Modular command system
-* 📡 Extensible command interfaces
+* 🎙️ Voice-first interaction
+* 🟢 Wake-word activation
+* 👤 Face authentication
+* 🎧 Streaming local speech recognition
+* 🧠 Local LLM reasoning through Ollama
+* 🔊 Local streaming TTS
+* 📚 Local knowledge retrieval
+* 🗂️ DuckDB-backed local memory
+* 🖥️ Desktop / system control
+* 🌐 Browser automation
+* 🔍 Screen inspection and OCR
+* 🔁 Closed-loop task execution
+* ✅ Plan → execute → verify → re-plan
+* 🩺 Runtime health reporting
+* 🔒 Local-first architecture
+* ☁️ No mandatory cloud AI dependency
 
 </td>
 
@@ -349,22 +385,51 @@ Agent Architecture
 
 Modular security and bug-bounty automation toolkit.
 
-```text
+```text id="1mrv1k"
 Recon
 Automation
 Security Testing
 Tool Orchestration
+XSS
+SSRF
+IDOR
+Fuzzing
+Endpoint Discovery
 ```
 
-**Repository:** https://github.com/NASHEDIxCODER/psycho
+🔗 https://github.com/NASHEDIxCODER/psycho
 
 ---
 
 ## 🔧 Event-Driven Microframework
 
-Experimentation around event-driven backend architecture and modular application design.
+In-process event-driven framework exploring modular backend architecture and event-driven application design.
 
-**Repository:** https://github.com/NASHEDIxCODER/event-driven-microframework
+```text id="gihc9v"
+Java
+Event-Driven Architecture
+Application Architecture
+Modularity
+Backend Systems
+```
+
+🔗 https://github.com/NASHEDIxCODER/event-driven-microframework
+
+---
+
+## 🔎 Asset Minner
+
+Asset discovery and JavaScript intelligence tooling.
+
+```text id="i08x4b"
+JavaScript Discovery
+Secret Detection
+Pattern Matching
+Asset Enumeration
+Automation
+```
+
+🔗 https://github.com/NASHEDIxCODER/asset_minner
 
 ---
 
@@ -372,42 +437,47 @@ Experimentation around event-driven backend architecture and modular application
 
 ## Security Domains
 
-```text
+```text id="m0d88v"
 ┌────────────────────────────────────────────────────────────┐
 │                    CYBERSECURITY                           │
 ├────────────────────────────────────────────────────────────┤
 │                                                            │
 │  🔎 RECONNAISSANCE                                         │
-│     ├── Subdomain Enumeration                              │
-│     ├── DNS Enumeration                                    │
 │     ├── Asset Discovery                                    │
+│     ├── Subdomain Enumeration                              │
+│     ├── DNS Intelligence                                   │
+│     ├── Certificate Transparency                           │
+│     ├── Historical URL Discovery                           │
 │     ├── Port Scanning                                      │
-│     ├── Service Discovery                                  │
 │     └── Attack Surface Mapping                             │
 │                                                            │
-│  🌐 WEB APPLICATION SECURITY                               │
+│  🌐 APPLICATION SECURITY                                   │
 │     ├── Authentication Testing                             │
 │     ├── Authorization Testing                              │
-│     ├── Input Validation                                   │
 │     ├── API Security                                       │
-│     ├── Fuzzing                                            │
-│     └── Vulnerability Discovery                            │
+│     ├── Input Validation                                   │
+│     ├── XSS                                                │
+│     ├── SSRF                                               │
+│     ├── IDOR                                               │
+│     └── Vulnerability Fuzzing                              │
 │                                                            │
 │  📡 NETWORK SECURITY                                       │
 │     ├── Network Enumeration                                │
 │     ├── Service Discovery                                  │
 │     ├── Packet Analysis                                    │
-│     └── Wireless Security                                  │
+│     ├── TLS Inspection                                     │
+│     └── Wireless Analysis                                  │
 │                                                            │
 │  ⚙️ SECURITY AUTOMATION                                    │
 │     ├── Recon Automation                                   │
 │     ├── Scanning                                           │
 │     ├── Fuzzing                                            │
-│     └── Security Tool Orchestration                        │
+│     ├── Pipeline Orchestration                             │
+│     └── Automated Reporting                                │
 │                                                            │
 │  🔐 PRIVACY & SECURE SYSTEMS                               │
 │     ├── Privacy-Focused Architecture                       │
-│     ├── Encryption                                        │
+│     ├── Encryption                                         │
 │     ├── Secure Communication                               │
 │     └── Secure Backend Design                              │
 │                                                            │
@@ -427,10 +497,11 @@ Experimentation around event-driven backend architecture and modular application
 <img src="https://img.shields.io/badge/MassDNS-444444?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/HTTPX-555555?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Nuclei-666666?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Recon--ng-777777?style=for-the-badge"/>
 
 </div>
 
-```text
+```text id="ty1xqj"
 Nmap
 Subfinder
 Amass
@@ -438,27 +509,30 @@ Assetfinder
 MassDNS
 HTTPX
 Nuclei
+Recon-ng
 ```
 
 ---
 
-# 🌐 Web Security Arsenal
+# 🌐 Web & Application Security
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQLMap-111111?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Nikto-222222?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/ffuf-333333?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/OWASP-444444?style=for-the-badge&logo=owasp&logoColor=white"/>
+<img src="https://img.shields.io/badge/WPScan-333333?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ffuf-444444?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Nuclei-555555?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OWASP-666666?style=for-the-badge&logo=owasp&logoColor=white"/>
 
 </div>
 
-```text
+```text id="xr7m63"
 Burp Suite
 SQLMap
 Nikto
+WPScan
 ffuf
 Nuclei
 OWASP Methodology
@@ -467,6 +541,9 @@ API Security Testing
 Authentication Testing
 Authorization Testing
 Input Validation Testing
+XSS Testing
+SSRF Testing
+IDOR Testing
 Fuzzing
 ```
 
@@ -474,35 +551,27 @@ Fuzzing
 
 # 📡 Network & Wireless Security
 
-```text
+```text id="fue7bk"
 Nmap
 Wireshark
 hcxdumptool
 bettercap
 airmon-ng
 
+TCP/IP
 Network Enumeration
 Service Discovery
 Packet Analysis
-Wireless Analysis
 Traffic Inspection
+Wireless Analysis
+TLS Inspection
 ```
 
 ---
 
 # 🧰 Security Frameworks & Tooling
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/Metasploit-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/BloodHound-111111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Responder-222222?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Chisel-333333?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Bettercap-444444?style=for-the-badge"/>
-
-</div>
-
-```text
+```text id="8j2y6e"
 Metasploit
 Cobalt Strike
 BloodHound
@@ -515,8 +584,11 @@ Burp Suite
 Nmap
 SQLMap
 Nikto
+WPScan
 ffuf
 Nuclei
+Recon-ng
+Wireshark
 ```
 
 ---
@@ -529,7 +601,7 @@ Nuclei
 
 </div>
 
-```text
+```text id="8on3w2"
 Go
 Python
 Java
@@ -539,42 +611,44 @@ Bash
 SQL
 ```
 
-### Primary Engineering Focus
+### Engineering Focus
 
-| Language          | Focus                                              |
-| ----------------- | -------------------------------------------------- |
-| 🐹 **Go**         | Backend, concurrency, networking, security tooling |
-| 🐍 **Python**     | Automation, security, APIs, AI, scripting          |
-| ☕ **Java**        | Backend and application development                |
-| ⚙️ **C++**        | Systems and programming foundations                |
-| 🌐 **JavaScript** | Web, browser and frontend systems                  |
-| 🐚 **Bash**       | Linux, automation and security workflows           |
-| 🗄️ **SQL**       | Database and backend development                   |
+| Language          | Focus                                                    |
+| ----------------- | -------------------------------------------------------- |
+| 🐹 **Go**         | Backend • Concurrency • Networking • Security Tooling    |
+| 🐍 **Python**     | Automation • Security • APIs • AI • Scripting            |
+| ☕ **Java**        | Backend • Application Development • Event-Driven Systems |
+| ⚙️ **C++**        | Systems • Programming Foundations                        |
+| 🌐 **JavaScript** | Web • Browser • Frontend Systems                         |
+| 🐚 **Bash**       | Linux • Automation • Security Workflows                  |
+| 🗄️ **SQL**       | Database • Backend Development                           |
 
 ---
 
 # ⚙️ Backend Engineering
 
-```text
+```text id="gag9j2"
 Go
 Python
 FastAPI
 REST APIs
+API Design
 WebSockets
 WebRTC
 HTTP / HTTPS
 TCP / IP
 AsyncIO
 Concurrency
+Goroutines
 Event-Driven Architecture
-API Design
-Backend Architecture
+Distributed Systems
 Real-Time Systems
+Backend Architecture
 ```
 
 ## 🐹 Go
 
-```text
+```text id="24l2qf"
 Goroutines
 Channels
 Concurrency
@@ -585,13 +659,15 @@ Networking
 CLI Applications
 Security Tooling
 Concurrent Scanning
+Connection Pooling
 ```
 
 ## 🐍 Python
 
-```text
+```text id="8o2hnr"
 FastAPI
 AsyncIO
+httpx
 Automation
 Security Tooling
 HTTP Clients
@@ -611,7 +687,7 @@ Reconnaissance
 
 </div>
 
-```text
+```text id="6a3h4q"
 HTML
 CSS
 JavaScript
@@ -632,19 +708,18 @@ Browser Applications
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,firebase" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql" />
 
 </div>
 
-```text
+```text id="i9s5tk"
 PostgreSQL
 MySQL
-Firebase
 ```
 
 ### Database Experience
 
-```text
+```text id="15hq9p"
 Relational Databases
 Schema Design
 SQL Queries
@@ -664,24 +739,26 @@ Database-backed APIs
 
 </div>
 
-```text
+```text id="m8g3r5"
 Local LLMs
 Ollama
 AI Agents
 Agent Architecture
+Command Routing
+Intent Handling
 Speech-to-Text
 Text-to-Speech
 Voice Interfaces
 Desktop Automation
-Command Processing
-AI-Assisted Workflows
+Workflow Automation
 Python AI Integration
 Local AI Infrastructure
+RAG Architecture
 ```
 
 ### AI Architecture
 
-```text
+```text id="3l0f2n"
                  ┌───────────────┐
                  │     USER      │
                  └───────┬───────┘
@@ -712,6 +789,65 @@ Local AI Infrastructure
 
 ---
 
+# 🧠 Diego AI Architecture
+
+Diego combines local speech, local reasoning, retrieval, browser control and desktop automation into a verification-oriented agent loop. Its current repository documents a local wake-word → authentication → streaming STT → intent routing → local LLM → TTS pipeline, plus local knowledge retrieval and closed-loop task execution.
+
+```text id="6t46y9"
+                    ┌───────────────────┐
+                    │      USER         │
+                    └─────────┬─────────┘
+                              │
+                       Voice / Text
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │   Wake Detection  │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │ Face Authentication│
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │ Streaming Whisper │
+                    │       STT         │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │  Intent Routing   │
+                    └─────────┬─────────┘
+                              │
+                   ┌──────────┼──────────┐
+                   ▼          ▼          ▼
+              Local LLM    Knowledge   Tools
+              / Ollama      Retrieval   / OS
+                   │          │          │
+                   └──────────┼──────────┘
+                              ▼
+                    ┌───────────────────┐
+                    │ Plan / Execute     │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │ Verify / Re-plan  │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │   Streaming TTS   │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                           USER
+```
+
+---
+
 # ☁️ Cloud & Infrastructure
 
 <div align="center">
@@ -720,7 +856,7 @@ Local AI Infrastructure
 
 </div>
 
-```text
+```text id="q8k1z5"
 AWS
 Docker
 Kubernetes
@@ -730,6 +866,7 @@ Certbot
 TLS / SSL
 DNS
 Reverse Proxy
+CI/CD
 Self-Hosted Services
 Cloud Deployment
 Containerized Services
@@ -737,7 +874,7 @@ Containerized Services
 
 ### Infrastructure
 
-```text
+```text id="uvgkbh"
 AWS EC2
 Linux Servers
 Nginx
@@ -756,7 +893,7 @@ WebRTC Infrastructure
 
 # 🌐 Networking
 
-```text
+```text id="1q3jl0"
 TCP / IP
 HTTP / HTTPS
 DNS
@@ -769,6 +906,7 @@ Reverse Proxy
 Network Enumeration
 Service Discovery
 Packet Analysis
+Traffic Analysis
 ```
 
 ---
@@ -781,7 +919,7 @@ Packet Analysis
 
 </div>
 
-```text
+```text id="nz2jcb"
 Linux
 ├── BlackArch Linux
 ├── Kali Linux
@@ -792,7 +930,7 @@ Windows
 
 ### Linux
 
-```text
+```text id="j9s2gr"
 Bash
 Networking
 System Administration
@@ -813,7 +951,7 @@ Server Deployment
 
 </div>
 
-```text
+```text id="y7rlsy"
 Git
 GitHub
 VS Code
@@ -828,7 +966,7 @@ Postman
 
 # 🔐 Security Libraries & Infrastructure
 
-```text
+```text id="3kflkz"
 libsodium
 coturn
 WebRTC
@@ -843,7 +981,7 @@ Secure Communication
 
 # 📱 Additional Technologies
 
-```text
+```text id="hvgc6u"
 Retrofit
 Firebase
 NextAuth.js
@@ -858,9 +996,7 @@ WebRTC
 
 # 🏗️ Architecture & Engineering
 
-I'm interested in building systems around:
-
-```text
+```text id="j2ky44"
 Distributed Systems
 Event-Driven Architecture
 Backend Architecture
@@ -873,69 +1009,115 @@ Privacy Engineering
 Security Architecture
 Infrastructure
 Automation
+Pipeline Orchestration
+DAG Scheduling
+Worker Pools
+Fault Handling
+Observability
 ```
 
 ---
 
-# 📊 GitHub Statistics
+# 📊 Engineering Metrics
 
-<div align="center">
+Measured results and benchmark targets from my engineering work:
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=NASHEDIxCODER&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" />
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NASHEDIxCODER&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" />
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=NASHEDIxCODER&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-# 📈 GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NASHEDIxCODER&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" />
-
-</div>
+```text id="wn8a2h"
+┌──────────────────────────────────────────────┐
+│                                              │
+│  1,000+       Concurrent WebSocket Clients   │
+│                                              │
+│  <50 ms       P95 WebSocket Latency          │
+│                                              │
+│  4,000+       Messages / Second              │
+│                                              │
+│  10,000       TCP Ports Scanned              │
+│                                              │
+│  13           ReconForgeX Modules            │
+│                                              │
+│  20+          WAF Fingerprint Detections     │
+│                                              │
+│  10–1000      Configurable Workers           │
+│                                              │
+└──────────────────────────────────────────────┘
+```
 
 ---
 
-# 🏆 GitHub Trophies
+# 📈 Security Workflow
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=NASHEDIxCODER&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" />
-
-</div>
+```text id="xgg8xx"
+                  DISCOVER
+                     │
+                     ▼
+              Asset Discovery
+              Subdomains
+              DNS Intelligence
+              Certificate Transparency
+                     │
+                     ▼
+                 ENUMERATE
+                     │
+                     ▼
+              Ports / Services
+              Directories
+              Technologies
+              JavaScript Assets
+                     │
+                     ▼
+                  ANALYZE
+                     │
+                     ▼
+              Technology Detection
+              TLS Inspection
+              CSP Analysis
+              Security Headers
+              JavaScript Intelligence
+                     │
+                     ▼
+                TEST / FUZZ
+                     │
+                     ▼
+              XSS / SSRF / IDOR
+              Endpoint Fuzzing
+              WAF-Aware Testing
+                     │
+                     ▼
+                  VALIDATE
+                     │
+                     ▼
+              Manual Triage
+              Verification
+              Impact Analysis
+                     │
+                     ▼
+                  REPORT
+                     │
+                     ▼
+             JSON / Markdown / HTML
+```
 
 ---
 
 # 🎯 What I Build
 
-```text
+```text id="y3p0o1"
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
 │  🛡️ SECURITY                                               │
-│     Security tooling • Recon • Web Security • Automation   │
+│     Security tooling • Recon • AppSec • Automation          │
 │                                                             │
 │  🐹 BACKEND                                                │
-│     Go • Python • APIs • WebSockets • Real-Time Systems   │
+│     Go • Python • APIs • WebSockets • Real-Time Systems    │
 │                                                             │
 │  🤖 AI                                                     │
-│     Local LLMs • Agents • Voice • Automation               │
+│     Local LLMs • Agents • Voice • Automation                │
 │                                                             │
 │  🔐 PRIVACY                                                 │
-│     Secure communication • Encryption • Privacy systems    │
+│     Secure communication • Encryption • Privacy systems     │
 │                                                             │
 │  ☁️ INFRASTRUCTURE                                         │
-│     Linux • AWS • Docker • Nginx • Networking              │
+│     Linux • AWS • Docker • Kubernetes • Nginx               │
 │                                                             │
 │  🔎 RESEARCH                                                │
 │     Recon • Fuzzing • Attack Surface • Vulnerability       │
@@ -947,7 +1129,7 @@ Automation
 
 # 🔄 Engineering Philosophy
 
-```text
+```text id="p7o0ke"
                  ┌──────────────┐
                  │     IDEA     │
                  └──────┬───────┘
@@ -989,19 +1171,21 @@ Automation
 
 I'm interested in opportunities involving:
 
-```text
+```text id="u8zqt4"
 Backend Engineering
+Backend / Go Development
 Security Engineering
 Cybersecurity
 Application Security
 Security Tool Development
-Go Development
 Python Development
-AI Engineering
+AI / ML Engineering
+AI Automation
 Developer Tools
 Infrastructure
 Cloud Engineering
 Security Research
+DevSecOps
 Open Source
 ```
 
@@ -1024,30 +1208,62 @@ I'm interested in collaborating on:
 
 ---
 
-# 🔗 Connect With Me
+# 🌐 My Digital Presence
 
 <div align="center">
+
+<a href="https://www.nashedixcoder.space">
+<img src="https://img.shields.io/badge/Portfolio-nashedixcoder.space-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
 
 <a href="https://github.com/NASHEDIxCODER">
 <img src="https://img.shields.io/badge/GitHub-NASHEDIxCODER-181717?style=for-the-badge&logo=github"/>
 </a>
 
-<a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<a href="https://www.linkedin.com/in/sonu-samrat01/">
+<img src="https://img.shields.io/badge/LinkedIn-Sonu%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="https://ghostline.sbs">
-<img src="https://img.shields.io/badge/GhostLine-Live-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+<a href="https://x.com/sonu_samrat_01">
+<img src="https://img.shields.io/badge/X-@sonu__samrat__01-000000?style=for-the-badge&logo=x&logoColor=white"/>
+</a>
+
+<a href="https://www.instagram.com/nashedi_x_coder/">
+<img src="https://img.shields.io/badge/Instagram-@nashedi__x__coder-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
 </a>
 
 </div>
 
 ---
 
+# 🔗 Quick Links
+
+```text id="5nbpcr"
+🌐 Portfolio
+https://www.nashedixcoder.space
+
+💻 GitHub
+https://github.com/NASHEDIxCODER
+
+💼 LinkedIn
+https://www.linkedin.com/in/sonu-samrat01/
+
+𝕏 X
+https://x.com/sonu_samrat_01
+
+📸 Instagram
+https://www.instagram.com/nashedi_x_coder/
+
+🦁 Diego
+https://github.com/NASHEDIxCODER/Diego_desktop_agent
+```
+
+---
+
 # 💡 Fun Facts
 
-```text
-> My GitHub alias is NASHEDIxCODER
+```text id="g2g8ny"
+> My GitHub alias is NASHEDIxCODER.
 
 > I enjoy building things from scratch.
 
@@ -1060,7 +1276,7 @@ I'm interested in collaborating on:
 > If something can be broken,
   I'll probably try to understand why.
 
-> Building > Watching tutorials
+> Building > Watching tutorials.
 ```
 
 ---
